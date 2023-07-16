@@ -1,0 +1,331 @@
+.home {
+  width: 100%;
+  background-image: url(../../images/hero-1.jpg.webp);
+  .container {
+    .row {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-weight: 700;
+      margin-bottom: 32px;
+      .contentDate {
+        font-size: 24px;
+        margin-bottom: 25px;
+        color: #fff;
+        font-weight: 500;
+        line-height: 1.2;
+      }
+      .contentTitle {
+        font-size: 48px;
+        margin-bottom: 32px;
+        color: #fff;
+        font-weight: 500;
+        line-height: 1.2;
+      }
+      .contentBtn {
+        text-align: center;
+        padding: 14px 36px 12px;
+        border: 1px solid #dd1515;
+        background-color: #dd1515;
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+  .slideNews {
+    width: 100%;
+    display: flex;
+    .leftSide {
+      width: 25%;
+      display: flex;
+      align-items: center;
+      background-color: #dd1515;
+      justify-content: center;
+      padding-bottom: 20px;
+      gap: 10px;
+      i {
+
+        color: #fff;
+        padding: 15px 20px 0 50px;
+      }
+      p {
+        font-size: 22px;
+        padding: 15px 75px 0 0;
+        color: #fff;
+        font-weight: 500;
+      }
+    }
+    .rightSide {
+      width: 50%;
+      background-color: #151618;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      p {
+        color: #fff;
+      }
+    }
+    .slideBtn {
+      background-color: #151618;
+      width: 25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      i {
+        color: #686565;
+        font-size: 22px;
+      }
+    }
+  }
+}
+.match {
+  width: 100%;
+  background-image: url(../../images/match-bg.jpg.webp);
+  padding: 70px 0;
+  .container {
+    .row {
+      display: flex;
+      gap: 30px;
+      .next {
+        width: 50%;
+        .leftTitle {
+          color: #fff;
+          font-size: 25px;
+          font-weight: 500;
+          margin-bottom: 25px;
+        }
+        .matchCard {
+          display: flex;
+          background-color: rgba(21, 22, 24, 0.9);
+          margin-bottom: 10px;
+          .leftFlag {
+            width: 33%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            padding: 16px 0;
+            img {
+              width: 30%;
+              height: 40%;
+            }
+            .stateName {
+              color: #ffff;
+            }
+          }
+          .states {
+            width: 34%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 16px 0;
+            .stateTitle {
+              color: #fff;
+            }
+            .vs {
+              color: #fff;
+              font-size: 25px;
+              margin: 13px 0;
+            }
+            .date {
+              color: #fff;
+            }
+          }
+          .rightFlag {
+            width: 33%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            padding: 16px 0;
+            .stateName {
+              color: #ffff;
+            }
+            img {
+              width: 30%;
+              height: 40%;
+            }
+          }
+        }
+      }
+      .recent {
+        width: 50%;
+        .rightTitle {
+          color: #fff;
+          font-size: 25px;
+          font-weight: 500;
+          margin-bottom: 25px;
+        }
+        .matchCard {
+          display: flex;
+          background-color: rgba(21, 22, 24, 0.9);
+          margin-bottom: 10px;
+          .leftFlag {
+            width: 33%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            padding: 16px 0;
+            img {
+              width: 30%;
+              height: 40%;
+            }
+            .stateName {
+              color: #ffff;
+            }
+          }
+          .states {
+            width: 34%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 16px 0;
+            .stateTitle {
+              color: #fff;
+            }
+            .vs {
+              color: #fff;
+              font-size: 25px;
+              margin: 13px 0;
+            }
+            .date {
+              color: #fff;
+            }
+          }
+          .rightFlag {
+            width: 33%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            padding: 16px 0;
+            .stateName {
+              color: #ffff;
+            }
+            img {
+              width: 30%;
+              height: 40%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.feed {
+  width: 100%;
+  padding: 70px 0;
+  .container {
+    .feedTitle {
+      font-size: 28px;
+      color: #151618;
+      padding-bottom: 15px;
+    }
+    .row {
+      width: 100%;
+      border-top: 4px solid #f2f2f2;
+      display: flex;
+      gap: 10px;
+      .soccerCard {
+        margin-top:25px;
+        width: 25%;
+        background-image: url("../../images/soccer-1.jpg.webp");
+        object-fit: cover;
+        height: 400px;
+        position: relative;
+        .cardTitle {
+          color: #ffffff;
+          font-weight: 500;
+          line-height: 26px;
+          position: absolute;
+          font-size: 18px;
+          padding: 0 15%;
+          left: 0;
+          top: 70%;
+          margin-bottom: 6px;
+        }
+        .cardList {
+          position: absolute;
+          left: 0;
+          top: 90%;
+          display: flex;
+          padding: 0 14%;
+          gap: 10px;
+          .cardDate {
+            color: #fff;
+            i {
+              color: #fff;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+      .soccerCard:nth-child(2) {
+        background-image: url(../../images/soccer-2.jpg.webp);
+      }
+      .soccerCard:nth-child(3) {
+        background-image: url(../../images/soccer-3.jpg.webp);
+      }
+      .soccerCard:nth-child(4) {
+        background-image: url(../../images/soccer-4.jpg.webp);
+      }
+    }
+  }
+}
+// .news{
+//   width: 100%;
+//   .container{
+//     .row{
+//       display: flex;
+//       justify-content: center;
+//       .lastestNews{
+//         width: 66%;
+//         display: flex;
+//         .aside{
+//           .asideImg{
+//             width: 370px;
+//             height: 250px;
+//             background-image: url(../../images/latest-b.jpg.webp);
+//           }
+//           object-fit: cover;
+//           margin-right: 25px;
+//         }
+//         .bside{
+//           width: 100%;
+//           padding: 0 15px;
+//           display: flex;
+//           img{
+//             width: 25%;
+//             height: 30%;
+//           }
+//           .bsideInfo{
+//             width: 60%;
+//             display: flex;
+//             align-items: center;
+//             flex-direction: column;
+//             p{
+//               margin-bottom: 10px;
+//             }
+//             .cardlist{
+//               .cardDate{
+//                 i{
+//                   color: #dd1515;
+//                 }
+//               }
+//             }
+//           }
+//         }
+        
+//       }
+//     }
+//   }
+// }

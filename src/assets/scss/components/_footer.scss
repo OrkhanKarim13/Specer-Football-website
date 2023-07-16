@@ -1,0 +1,122 @@
+.footer {
+  width: 100%;
+  background-color: #222222;
+  padding: 60px 0;
+  background-image: url(../../images/footer-bg.jpg.webp);
+  background-position: c;
+  .container {
+    .footerContent {
+      width: 100%;
+      display: flex;
+      .footerConnect {
+        width: 33%;
+        padding: 0 15px;
+        .footerImg {
+          width: 100%;
+          margin-bottom: 30px;
+        }
+        .socialList {
+          width: 100%;
+          .socialItem {
+            font-size: 16px;
+            line-height: 36px;
+            a {
+              color: #ababab;
+            }
+            i {
+              color: #dd1515;
+              margin-right: 10px;
+            }
+          }
+        }
+        .iconList {
+          width: 100%;
+          display: flex;
+          gap: 15px;
+          margin-top: 20px;
+          .icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 1px solid #5c5b5b;
+            position: relative;
+            a {
+              position: absolute;
+              top: 25%;
+              left: 30%;
+              color: #ababab;
+            }
+          }
+        }
+      }
+      .footerStates {
+        width: 33%;
+        .footerCardTitle {
+          color: #ffffff;
+          font-weight: 500;
+          margin-bottom: 26px;
+          font-size: 24px;
+        }
+        .stateContent {
+          display: flex;
+          .leftStates {
+            width: 50%;
+            .leftState {
+              a {
+                line-height: 36px;
+                font-weight: 500;
+                font-size: 16px;
+                color: #b5b8be;
+              }
+            }
+          }
+          .rightStates {
+            width: 50%;
+            .rightState {
+              a {
+                line-height: 36px;
+                font-weight: 500;
+                font-size: 16px;
+                color: #b5b8be;
+              }
+            }
+          }
+        }
+      }
+      .footerNews {
+        width: 33%;
+        .footerCardTitle {
+          margin-bottom: 30px;
+          color: #ffffff;
+          font-weight: 500;
+          margin-bottom: 26px;
+          font-size: 24px;
+        }
+        .footerCardPart {
+          margin-bottom: 20px;
+          .newsCardInfo {
+            margin-bottom: 8px;
+            a {
+              color: #ffffff;
+              font-weight: 500;
+              line-height: 26px;
+              font-size: 18px;
+            }
+          }
+          .cardList{
+            display: flex;
+            gap: 20px;
+            .cardDate{
+              color: #5c5b5b;
+
+              i{
+                color:#dd1515;
+                margin-right: 10px;;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
